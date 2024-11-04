@@ -1,5 +1,6 @@
-import Image from "next/image";
 import localFont from "next/font/local";
+import Welcome from "@/components/Welcome"; 
+import next from "next";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -14,8 +15,10 @@ const geistMono = localFont({
 
 export default function Home() {
   return (
-  <main>
-    
-  </main>
+    <main className=" bg-red-500 flex min-h-screen justify-center items-center text-white">
+        homepage      
+    </main>
   );
 }
+
+
