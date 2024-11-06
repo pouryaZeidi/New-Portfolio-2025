@@ -1,8 +1,15 @@
+import Link from 'next/link'
 import React from 'react'
 
-const NavbarItems = () => {
+interface NavbarItemsprops {
+    href:string;
+    txt:string;
+    className?:string;
+}
+
+const NavbarItems :React.FC<NavbarItemsprops>= ({href,txt,className}) => {
   return (
-    <div>NavbarItems</div>
+    <Link href={href} className={`text-white ${className}`}>{txt}</Link>
   )
 }
 
