@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import Welcome from "@/components/Welcome"; 
 import next from "next";
+import HeroSection from "@/components/HeroSection";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,8 +16,8 @@ const geistMono = localFont({
 
 export default function Home() {
   return (
-    <main className=" bg-red-500 flex min-h-screen justify-center items-center text-white">
-        homepage      
+    <main className="">
+        <HeroSection/>     
     </main>
   );
 }
