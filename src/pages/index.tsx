@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/navbar/Navbar";
 
 
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -19,6 +20,7 @@ export default function Home() {
     <main className="">
       <Navbar/>
       <HeroSection/>     
+      
     </main>
   );
 }

@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Welcome from '@/components/Welcome'
 import WelcomeText from '@/components/WelcomeText'
 import React from 'react'
@@ -8,6 +9,7 @@ const Layout = ({ children }: { children: any }) => {
       <Welcome />
       <WelcomeText />
       {children}
+      <Footer/>
     </div>
   )
 }

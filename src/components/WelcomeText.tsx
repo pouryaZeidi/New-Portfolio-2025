@@ -19,9 +19,9 @@ const WelcomeText = () => {
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
       style={{ zIndex: 20,  }}     >
-      <div className="text-center text-white">
-        <h1 className="text-2xl font-bold">Welcome to my world!</h1>
-        <p className="mt-2 text-lg">
+      <div className="text-center ">
+        <h1 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-300">Welcome to my world!</h1>
+        <p className="mt-2 text-lg text-white">
           I'm Pourya Zeydi, a frontend developer passionate about crafting fast and beautiful user interfaces. Let's take a tour through my projects and experiences. Ready? Let’s dive in!
         </p>
       </div>
