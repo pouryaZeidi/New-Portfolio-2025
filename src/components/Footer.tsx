@@ -5,16 +5,16 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/PouryaCV.pdf';  // مسیر فایل رزومه
-    link.download = 'PouryaCV.pdf'; // نام فایل دانلود
+    link.href = '/PouryaCV.pdf'; 
+    link.download = 'PouryaCV.pdf'; 
     link.click();
   };
 
   return (
-    <footer className="relative z-50 bg-gray-950  text-white p-10">
+    <footer className=" z-50 bg-gray-950  text-white p-10">
       <div className=' p-5'>
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
-          {/* Logo and Description */}
+         
           <div className="mb-5 md:mb-0 md:w-1/3">
             <h1 className="text-2xl font-bold">
               <span className="text-yellow-300">Pourya</span> Zeydi
@@ -24,7 +24,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Social Links */}
           <div className="flex flex-col items-start md:items-center md:w-1/3">
             <h2 className="text-lg font-semibold mb-3">Follow Me</h2>
             <div className="flex space-x-4">
@@ -55,7 +54,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Contact Info */}
           <div className="mt-5 md:mt-0 md:w-1/3">
             <h2 className="text-lg font-semibold mb-3">Contact</h2>
             <p className="text-gray-400 text-sm">
@@ -71,10 +69,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Divider */}
         <div className="border-t border-gray-700 mt-10"></div>
 
-        {/* Download Resume Button */}
         <div className="mt-5 text-center">
           <button
             onClick={handleDownload}
@@ -84,9 +80,8 @@ const Footer = () => {
           </button>
         </div>
 
-        {/* Copyright */}
         <div className="mt-5 text-center text-sm text-gray-500">
-          © 2024 Pourya Zeydi. All rights reserved. | Built with{" "}
+          © 2025 Pourya Zeydi. All rights reserved. | Built with{" "}
           <span className="text-red-500">❤</span> using Next.js & Tailwind CSS
         </div>
       </div>
