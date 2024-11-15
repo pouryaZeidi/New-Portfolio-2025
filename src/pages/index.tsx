@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "@/components/HeroSection/HeroSection";
 import Navbar from "@/components/navbar/Navbar";
 
 

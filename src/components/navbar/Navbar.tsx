@@ -25,7 +25,7 @@ const Navbar = () => {
           color="rgb(245, 245, 245)" // استفاده از textColor
         />
         {isOpen && (
-          <div className="absolute top-24 right-6 w-[150px] h-[200px] bg-primary bg-opacity-90 border-tertiary border-[1px] backdrop-blur-2xl shadow-lg rounded-2xl flex flex-col justify-between items-center p-4">
+          <div className="absolute top-24 right-6 w-[150px] h-[200px] z-50 bg-primary bg-opacity-90 border-tertiary border-[1px] backdrop-blur-2xl shadow-lg rounded-2xl flex flex-col justify-between items-center p-4">
             <NavbarItems href={"/"} txt={"About Me"} />
             <NavbarItems href={"/"} txt={"Projects Codes"} />
             <NavbarItems href={"/"} txt={"On Versel"} />

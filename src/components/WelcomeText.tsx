@@ -6,7 +6,7 @@ const WelcomeText = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 4000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -18,37 +18,30 @@ const WelcomeText = () => {
       }`}
       style={{ zIndex: 20 }}
     >
-      <div className="relative">
+      <div className="relative h-[40%] flex flex-col items-center">
         {/* افکت نورانی پس‌زمینه */}
         <div
-          className="absolute inset-0 w-full h-full bg-gradient-to-br from-teal-400/20 to-blue-500/20 blur-2xl rounded-full opacity-60 animate-glow"
+          className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 blur-2xl rounded-full opacity-60 animate-glow"
           style={{ zIndex: -1 }}
         ></div>
 
         {/* متن اصلی */}
         <h1
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-blue-500 to-cyan-500 
-          animate-text-glow"
-        >
+          className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-tertiary
+          animate-text-glow">
           Welcome to my world!
         </h1>
 
-        {/* خط متحرک */}
-        <div
-          className="absolute left-1/2 top-16 sm:top-24 transform -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-teal-400 to-cyan-500 
-          animate-pulse"
-        />
-
         {/* توضیحات */}
         <p
-          className="mt-10 text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-300 text-center px-8 
+          className="mt-10 text-lg sm:text-xl md:text-2xl lg:text-3xl text-textColor text-center px-8 
           animate-slide-up"
         >
-          I'm <span className="font-bold text-teal-400">Pourya Zeydi</span>, a{" "}
-          <span className="text-blue-400 font-semibold">frontend developer</span>{" "}
+          I'm <span className="font-bold text-secondary">Pourya Zeydi</span>, a{" "}
+          <span className="text-tertiary font-semibold">frontend developer</span>{" "}
           passionate about crafting{" "}
-          <span className="text-cyan-400 font-semibold">beautiful</span> and{" "}
-          <span className="text-teal-500 font-semibold">efficient</span> user
+          <span className="text-white font-semibold">beautiful</span> and{" "}
+          <span className="text-white font-semibold">efficient</span> user
           experiences.
         </p>
       </div>

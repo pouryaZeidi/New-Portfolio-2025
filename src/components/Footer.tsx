@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative z-50 bg-primary text-textColor p-10">
+    <footer className="relative z-40 bg-primary text-textColor p-10">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
           <div className="w-full md:w-1/3">
@@ -75,7 +75,6 @@ const Footer = () => {
             Download PDF Resume
           </button>
         </div>
-
         <div className="mt-5 text-center text-sm text-tertiary">
           © 2025 Pourya Zeydi. All rights reserved. | Built with{" "}
           <span className="text-red-500">❤</span> using Next.js & Tailwind CSS

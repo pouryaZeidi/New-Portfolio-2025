@@ -21,11 +21,11 @@ const config: Config = {
         deep: "0px 10px 30px rgba(0, 0, 0, 0.5)",
       },
       animation: {
-        leftWindow: "leftWindow 3s linear 2s forwards",
-        fadeIn: "fadeIn 2s ease-in-out forwards",
+        leftWindow: "leftWindow 5s linear 3s forwards",
+        fadeIn: "fadeIn 4s ease-in-out forwards",
         pulseSlow: "pulse 5s infinite",
-        slideIn: "slideIn 1s ease-out forwards",
-        slideOut: "slideOut 1s ease-out forwards",
+        slideIn: "slideIn 2s ease-out forwards",
+        slideOut: "slideOut 2s ease-out forwards",
       },
       keyframes: {
         leftWindow: {
