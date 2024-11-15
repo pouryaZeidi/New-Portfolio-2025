@@ -9,12 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#4f46e5",
-        secondary: "#9333ea",
-        accent: "#f43f5e",
-        background: "#0f172a",
-        surface: "#1e293b",
-        onPrimary: "#ffffff",
+        primary: "rgb(40, 40, 40)", 
+        secondary: "rgb(234, 179, 8)", 
+        tertiary: "rgb(200, 60, 30)",
+        textColor: "rgb(245, 245, 245)",
       },
       boxShadow: {
         custombox:
