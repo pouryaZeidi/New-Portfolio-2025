@@ -13,19 +13,17 @@ const WelcomeText = () => {
 
   return (
     <div
-      className={`absolute top-0 left-0 w-full h-full flex items-center justify-center transition-opacity duration-1000 ${
+      className={`hidden  absolute top-0 left-0 w-full h-full sm:flex items-center justify-center transition-opacity duration-1000 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       style={{ zIndex: 20 }}
     >
       <div className="relative h-[40%] flex flex-col items-center">
-        {/* افکت نورانی پس‌زمینه */}
+     
         <div
           className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 blur-2xl rounded-full opacity-60 animate-glow"
           style={{ zIndex: -1 }}
         ></div>
-
-        {/* متن اصلی */}
         <h1
           className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-tertiary
           animate-text-glow">
