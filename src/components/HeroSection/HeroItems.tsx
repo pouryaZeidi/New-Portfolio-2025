@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroItems = () => {
   return (
-    <div className="flex flex-col  mt-6  sm:flex sm:flex-row items-center justify-center py-16 px-8 lg:px-16">
+    <div className="flex flex-col  mt-8 sm:mt-1  sm:flex sm:flex-row items-center justify-center py-16 px-8 lg:px-16">
       {/* Left side: Image */}
       <div className="w-full sm:w-2/3 lg:w-1/3 flex justify-center mb-8 sm:mb-4 lg:mb-0">
         <img
