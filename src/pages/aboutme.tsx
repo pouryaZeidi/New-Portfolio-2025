@@ -7,7 +7,7 @@ const AboutMe = () => {
       className="px-6 py-12 bg-cover bg-center text-center"
       style={{ backgroundImage: `url('/Bg1.png')` }}
     >
-      <h1 className="text-5xl font-extrabold text-primary mb-12">About Me</h1>
+      <h1 className="text-5xl font-extrabold text-secondary mb-12">About Me</h1>
 
       {/* Coffee Journey (Barista Experience) */}
       <Section
@@ -40,7 +40,7 @@ const AboutMe = () => {
       {/* Frontend Developer Experience - Yadeam Team */}
       <Section
         title="Frontend Developer - Yadeam Team"
-        image="/path/to/yadeam-image.png"
+        image="/Yadeam.jpg"
         text={`At Yadeam Team, I worked on several projects, building responsive web applications with modern frontend technologies. I utilized my skills in React, TypeScript, and Tailwind CSS to enhance user experience and optimize performance.`}
         technologies="React, TypeScript, Tailwind CSS"
       />
@@ -48,7 +48,7 @@ const AboutMe = () => {
       {/* Frontend Developer Experience - Sazmand Co. */}
       <Section
         title="Frontend Developer - Sazmand Co."
-        image="/path/to/sazmand-image.png"
+        image="/Sazmand.png"
         text={`At Sazmand Co., an architectural firm, I was responsible for building scalable web applications with Redux and Tailwind CSS. 
         My role involved crafting responsive user interfaces and ensuring smooth performance for various web applications.`}
         technologies="React, Redux, Tailwind CSS"
@@ -76,7 +76,7 @@ const AboutMe = () => {
       {/* Trading Experience */}
       <Section
         title="Forex Trader"
-        image="/path/to/trading-image.png"
+        image="/trading-image.png"
         text={`Alongside my development career, I pursued a career as a Forex trader. I began trading on KuCoin in 2020 and later expanded my trading activities to platforms like Alpari, AMarkets, FXTM, and HotForex.
         My trading experience has taught me valuable skills in analysis and decision-making under pressure.`}
         layout="reverse"

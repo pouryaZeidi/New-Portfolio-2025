@@ -21,21 +21,24 @@ const Section: React.FC<SectionProps> = ({
                   items-center justify-between my-12`}
     >
       <div className="flex-1 px-6">
-        <h2 className="text-3xl font-semibold text-primary mb-4">{title}</h2>
-        <p className="text-lg leading-relaxed text-gray-700 mb-6">{text}</p>
+        <h2 className="text-3xl font-semibold text-secondary mb-4">{title}</h2>
+        <p className="text-lg leading-relaxed text-gray-400 mb-6">{text}</p>
         {technologies && (
           <p className="text-sm text-gray-500">
             <strong>Technologies:</strong> {technologies}
           </p>
         )}
       </div>
-      <div className="flex-1 px-6">
+      {/* Image displayed only on screens larger than sm */}
+      <div className="hidden sm:flex-1 sm:block px-6">
         <img
           src={image}
           alt={title}
           className="w-full h-auto rounded-lg shadow-lg"
         />
       </div>
+      {/* When the screen size is small, we will hide the image and the text will fill the space */}
+    
     </div>
   );
 };
