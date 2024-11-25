@@ -66,11 +66,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-tertiary mt-10"></div>
         <div className="mt-5 text-center">
-          <button
-            onClick={handleDownload}
-            className="text-primary bg-secondary hover:bg-tertiary py-2 px-6 rounded-md shadow-md transform transition-all duration-300 ease-in-out hover:scale-105" >
-            Download PDF Resume
-          </button>
+        
         </div>
         <div className="mt-5 text-center text-sm text-secondary">
           © 2025 Pourya Zeydi. All rights reserved. | Built with{" "}

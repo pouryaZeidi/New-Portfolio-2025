@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import Navbar from "@/components/navbar/Navbar";
+import SecondSection from "@/components/SecondSection";
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
     <main className="">
       <Navbar/>
       <HeroSection/>     
+      <SecondSection/>
       
     </main>
   );
