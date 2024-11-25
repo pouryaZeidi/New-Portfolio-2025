@@ -18,7 +18,7 @@ const Footer = () => {
             <h1 className="text-2xl font-bold">
               <span className="text-secondary">Pourya</span> Zeydi
             </h1>
-            <p className="mt-2 text-tertiary text-sm leading-relaxed">
+            <p className="mt-2 text-secondary text-sm leading-relaxed">
               Frontend Developer | Passionate about building responsive and user-friendly web applications. Let’s connect and create something amazing!
             </p>
           </div>
@@ -64,18 +64,15 @@ const Footer = () => {
             <p className="text-tertiary text-sm">Location: Antalya, Turkey</p>
           </div>
         </div>
-
         <div className="border-t border-tertiary mt-10"></div>
-
         <div className="mt-5 text-center">
           <button
             onClick={handleDownload}
-            className="text-primary bg-secondary hover:bg-tertiary py-2 px-6 rounded-md shadow-md transform transition-all duration-300 ease-in-out hover:scale-105"
-          >
+            className="text-primary bg-secondary hover:bg-tertiary py-2 px-6 rounded-md shadow-md transform transition-all duration-300 ease-in-out hover:scale-105" >
             Download PDF Resume
           </button>
         </div>
-        <div className="mt-5 text-center text-sm text-tertiary">
+        <div className="mt-5 text-center text-sm text-secondary">
           © 2025 Pourya Zeydi. All rights reserved. | Built with{" "}
           <span className="text-red-500">❤</span> using Next.js & Tailwind CSS
         </div>
