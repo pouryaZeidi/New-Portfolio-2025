@@ -52,7 +52,7 @@ const ResumeViewer = () => {
       <img
         src="/CV.png"
         alt="My CV"
-        className="absolute w-[25vw] h-[80vh] rounded-lg shadow-lg transition-transform duration-600"
+        className="absolute w-[300px] h-[500px] lg:w-[25vw] lg:h-[80vh] rounded-lg shadow-lg transition-transform duration-600"
         style={{
           top: smoothPosition.y - 140,
           left: smoothPosition.x - 100,
