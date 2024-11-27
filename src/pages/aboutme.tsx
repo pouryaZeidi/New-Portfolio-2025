@@ -12,7 +12,7 @@ const AboutMe = () => {
       {/* Coffee Journey (Barista Experience) */}
       <Section
         title="Barista & Head Barista"
-        image="/cafe.png"
+        image="/Coffeeshops.png"
         text={`My professional journey began in 2014 as a barista, and later as a head barista, at renowned cafes like V Cafe, Viuna, Balloon Cafe, and Cafe Market.
         In 2018, I proudly achieved second place in the Aeropress Championship in Iran, one of the highlights of my career!`}
         layout="reverse" 
