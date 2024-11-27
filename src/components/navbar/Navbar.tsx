@@ -14,6 +14,7 @@ const Navbar = () => {
       />
     
       <div className="hidden sm:flex w-[70%] p-4 shadow-custombox bg-primary bg-opacity-70 border-tertiary border-[1px] backdrop-blur-2xl rounded-2xl items-center justify-between m-auto">
+        <NavbarItems href={"/"} txt={"Home"} />
         <NavbarItems href={"/skills"} txt={"Skills"} />
         <NavbarItems href={"/blog"} txt={"Blog"} />
         <NavbarItems href={"/projects"} txt={"Projects"} />

@@ -20,7 +20,7 @@ const geistMono = localFont({
 export default function Home() {
   return (
     <main className="">
-      <Navbar/>
+      
       <HeroSection/>     
       <SecondSection/>
       
