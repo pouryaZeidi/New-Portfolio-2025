@@ -16,14 +16,14 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
           <div className="w-full md:w-1/3">
             <h1 className="text-2xl font-bold">
-              <span className="text-secondary">Pourya</span> Zeydi
+              <span className="text-secondary">P</span>ourya <span className="text-secondary">Z</span>eydi
             </h1>
             <p className="mt-2 text-secondary text-sm leading-relaxed">
               Frontend Developer | Passionate about building responsive and user-friendly web applications. Let’s connect and create something amazing!
             </p>
           </div>
           <div className="w-full md:w-1/3 text-center">
-            <h2 className="text-lg font-semibold mb-3">Follow Me</h2>
+            <h2 className="text-lg font-semibold mb-3"> <span className="text-secondary">F</span>ollow <span className="text-secondary">M</span>e</h2>
             <div className="flex justify-center space-x-6">
               <Link
                 href="https://github.com/pouryaZeidi"
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full md:w-1/3 text-right">
-            <h2 className="text-lg font-semibold mb-3">Contact</h2>
+            <h2 className="text-lg font-semibold mb-3"><span className="text-secondary">C</span>ontact</h2>
             <p className="text-tertiary text-sm">
               Email:{" "}
               <Link
