@@ -3,7 +3,7 @@ import React from 'react';
 const HeroItems = () => {
   return (
     <div className="flex flex-col mt-8 sm:mt-1 sm:flex sm:flex-row items-center justify-center py-16 px-8 lg:px-16">
-      <div className="w-full sm:w-2/3 lg:w-1/3 flex justify-center mb-8 sm:mb-4 lg:mb-0">
+      <div className="w-full sm:w-2/3 lg:w-1/3 flex justify-center mb-8 sm:mb-4 mt-16 sm:mt-6 md:mt-1 lg:mb-0">
         <img 
           src="/PouryaImage.jpg" 
           alt="Pourya Zeydi"
