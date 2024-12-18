@@ -52,10 +52,19 @@ const ResumeViewer = () => {
       <img
         src="/CV.png"
         alt="My CV"
-        className="absolute w-[300px] h-[500px] lg:w-[25vw] lg:h-[80vh] rounded-lg shadow-lg transition-transform duration-600"
+        className="flex sm:hidden absolute md:w-[300px] md:h-[500px]  w-[180px] h-[300px] lg:w-[23vw] lg:h-[80vh] rounded-lg shadow-lg transition-transform duration-600"
         style={{
-          top: smoothPosition.y - 140,
-          left: smoothPosition.x - 100,
+          top: smoothPosition.y + 270,
+          left: smoothPosition.x +10,
+        }}
+      />
+      <img
+        src="/CV.png"
+        alt="My CV"
+        className="hidden sm:flex absolute md:w-[300px] md:h-[500px]  w-[180px] h-[300px] lg:w-[23vw] lg:h-[80vh] rounded-lg shadow-lg transition-transform duration-600"
+        style={{
+          top: smoothPosition.y + 0,
+          left: smoothPosition.x + 0,
         }}
       />
     </div>
