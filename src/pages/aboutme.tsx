@@ -9,85 +9,71 @@ const AboutMe = () => {
     >
       <h1 className="text-5xl font-extrabold text-secondary mb-12">About Me</h1>
 
-      {/* Coffee Journey (Barista Experience) */}
+      {/* Café & Restaurant Management */}
       <Section
-        title="Barista & Head Barista"
-        image="/Coffeeshops.png"
-        text={`My professional journey began in 2014 as a barista, and later as a head barista, at renowned cafes like V Cafe, Viuna, Balloon Cafe, and Cafe Market.
-        In 2018, I proudly achieved second place in the Aeropress Championship in Iran, one of the highlights of my career!`}
-        layout="reverse" 
+        title="Café & Restaurant Management"
+        image="/CafeManagement.png"
+        text="With over 9 years of experience in café and restaurant management, I have led teams, managed daily operations, and ensured exceptional customer service. My focus has been on streamlining service workflows, optimizing the customer experience, and training staff to deliver high-quality service."
       />
 
-      {/* Frontend Developer Experience - Aspinas Graphic */}
+      {/* Brand Development & Startup Consulting */}
       <Section
-        title="Frontend Developer - Aspinas Graphic"
-        image="/Aspinas.png"
-        text={`In my first frontend development role at Aspinas Graphic, I worked as a freelancer using React and TypeScript to build responsive websites.
-        I focused on creating engaging user interfaces that adapted seamlessly across different devices.`}
-        technologies="React, TypeScript, Tailwind CSS"
-      />
-
-      {/* Frontend Developer Experience - V Cafe */}
-      <Section
-        title="Frontend Developer - V Cafe"
-        image="/Vcafe.png"
-        text={`At V Cafe, I transitioned into the IT team to develop a web application for online ordering, similar to Starbucks. 
-        The app featured bonus points for loyal customers, and I contributed to its design and development using React and TypeScript.`}
-        technologies="React, TypeScript, Firebase"
+        title="Brand Development & Startup Consulting"
+        image="/BrandDevelopment.png"
+        text="I have assisted in developing strong brands and launching new cafés, focusing on concept design, market research, and customer experience optimization. As a startup consultant, I’ve helped cafés refine their strategies, develop their menus, and train staff to set up successful operations."
         layout="reverse"
       />
 
-      {/* Frontend Developer Experience - Yadeam Team */}
+      {/* Internal Manager & Staff Trainer */}
       <Section
-        title="Frontend Developer - Yadeam Team"
+        title="Internal Manager & Staff Trainer - Café Market"
+        image="/CafeMarket.png"
+        text="At Café Market, I was responsible for managing daily operations, coordinating staff, and streamlining workflows. I focused on creating an environment that promoted customer satisfaction and effective team performance."
+      />
+
+      {/* Startup Consultant & Operations Manager */}
+      <Section
+        title="Startup Consultant & Operations Manager - Balloon Café"
+        image="/BalloonCafe.png"
+        text="In my role at Balloon Café, I helped launch a new branch by focusing on menu development, staff recruitment, and training. I supervised setup processes to ensure smooth operations and timely service delivery."
+        layout="reverse"
+      />
+
+      {/* Barista & Shift Supervisor */}
+      <Section
+        title="Barista & Shift Supervisor - V Café"
+        image="/VCafe.png"
+        text="My journey in the café industry started at V Café, where I worked as a barista and later as a shift supervisor. I contributed to launching new branches and managing team performance to ensure excellent customer service."
+      />
+
+      {/* Barista */}
+      <Section
+        title="Barista - Café Viuna"
+        image="/Viuna.png"
+        text="I began my career in the coffee industry as a barista at Café Viuna, where I developed my skills and passion for coffee. Over time, I advanced and gained hands-on experience in crafting quality beverages and managing customer interactions."
+        layout="reverse"
+      />
+
+      {/* Programming Experience */}
+      <Section
+        title="Frontend Developer - Yadeam Al Finance"
         image="/Yadeam.jpg"
-        text={`At Yadeam Team, I worked on several projects, building responsive web applications with modern frontend technologies. I utilized my skills in React, TypeScript, and Tailwind CSS to enhance user experience and optimize performance.`}
-        technologies="React, TypeScript, Tailwind CSS"
+        text="As a frontend developer at Yadeam Al Finance in London, I worked remotely to develop responsive and efficient user interfaces using Next.js 14. I collaborated with the team to create secure and scalable financial solutions."
       />
 
-      {/* Frontend Developer Experience - Sazmand Co. */}
+      {/* Farzanegan School Project */}
       <Section
-        title="Frontend Developer - Sazmand Co."
-        image="/Sazmand.png"
-        text={`At Sazmand Co., an architectural firm, I was responsible for building scalable web applications with Redux and Tailwind CSS. 
-        My role involved crafting responsive user interfaces and ensuring smooth performance for various web applications.`}
-        technologies="React, Redux, Tailwind CSS"
-      />
-
-      {/* Frontend Developer Experience - Iran Saghfe Novin */}
-      <Section
-        title="Frontend Developer - Iran Saghfe Novin"
-        image="/Iransaghf.png"
-        text={`During my time at Iran Saghfe Novin, I worked with React and Next.js to develop high-performance, responsive websites for interior design purposes.
-        The focus was on creating adaptive and visually appealing designs for clients in the interior design industry.`}
-        technologies="React, Next.js, Tailwind CSS"
-        layout="reverse"
-      />
-
-      {/* Frontend Developer Experience - Farzanegan High School */}
-      <Section
-        title="Frontend Developer - Farzanegan High School"
+        title="Frontend Developer - Farzanegan School Project"
         image="/Farzanegan.png"
-        text={`I had the opportunity to work as a frontend developer at Farzanegan High School, where I built responsive, user-friendly web applications.
-        The projects I worked on focused on providing educational tools for students and enhancing the school's online presence.`}
-        technologies="React, Tailwind CSS"
-      />
-
-      {/* Trading Experience */}
-      <Section
-        title="Forex Trader"
-        image="/trading-image.png"
-        text={`Alongside my development career, I pursued a career as a Forex trader. I began trading on KuCoin in 2020 and later expanded my trading activities to platforms like Alpari, AMarkets, FXTM, and HotForex.
-        My trading experience has taught me valuable skills in analysis and decision-making under pressure.`}
+        text="I assisted in developing a school management system for Farzanegan School, focusing on UI/UX improvements to make the system more user-friendly for both students and teachers."
         layout="reverse"
       />
 
-      {/* Final Thoughts */}
+      {/* Final Thoughts - Frontend Development Today */}
       <Section
         title="Frontend Development Today"
-        image="/Frontend.png"
-        text={`Today, I’m fully dedicated to frontend development, leveraging my diverse background in both technology and trading to create impactful web applications with tools like React, TypeScript, and Tailwind CSS.`}
-        technologies="React, TypeScript, Tailwind CSS"
+        image="/FrontendDevelopment.png"
+        text="Currently, I’m fully focused on developing the ‘Poonez’ brand as a chain of cafés, aiming to create a unique experience for customers. I am working on building an innovative app specifically designed for cafés and restaurants, which not only provides an exceptional user experience but also offers digital solutions to enhance internal processes and customer interactions. By combining my technical expertise in programming with my business management experience in the café industry, I strive to bring technology and innovation into the world of café and restaurant businesses, making a positive impact in this field."
       />
     </div>
   );

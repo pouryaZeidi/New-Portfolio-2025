@@ -17,7 +17,6 @@ const Navbar = () => {
         <NavbarItems href={"/"} txt={"Home"} />
         <NavbarItems href={"/skills"} txt={"Skills"} />
         <NavbarItems href={"/blog"} txt={"Blog"} />
-        <NavbarItems href={"/projects"} txt={"Projects"} />
         <NavbarItems href={"/aboutme"} txt={"About Me"} />
       </div>
       
@@ -27,7 +26,6 @@ const Navbar = () => {
           <div className="absolute top-24 right-6 w-[200px] h-[250px] z-50 bg-primary bg-opacity-90 border-tertiary border-[1px] backdrop-blur-2xl shadow-lg rounded-2xl flex flex-col justify-between items-center p-4">
             <NavbarItems href={"/skills"} txt={"Skills"} />
             <NavbarItems href={"/blog"} txt={"Blog"} />
-            <NavbarItems href={"/projects"} txt={"Projects"} />
             <NavbarItems href={"/aboutme"} txt={"About Me"} />
           </div>
         )}

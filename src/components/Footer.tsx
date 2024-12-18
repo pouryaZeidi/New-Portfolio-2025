@@ -19,7 +19,7 @@ const Footer = () => {
               <span className="text-secondary">P</span>ourya <span className="text-secondary">Z</span>eydi
             </h1>
             <p className="mt-2 text-secondary text-sm leading-relaxed">
-              Frontend Developer | Passionate about building responsive and user-friendly web applications. Let’s connect and create something amazing!
+              Business Planner | Cafe-Restaurant Startup Consultant | Passionate about building unique brands and experiences in the food industry. Let’s connect and create something amazing!
             </p>
           </div>
           <div className="w-full md:w-1/3 text-center">
@@ -61,13 +61,18 @@ const Footer = () => {
                 zeidipourya@gmail.com
               </Link>
             </p>
-            <p className="text-tertiary text-sm">Location: Antalya, Turkey</p>
+            <p className="text-tertiary text-sm">Location: IRAN-TEHRAN</p>
+            <p className="text-tertiary text-sm mt-2">
+              <button
+                onClick={handleDownload}
+                className="text-primary hover:text-secondary transition-colors"
+              >
+                Download CV
+              </button>
+            </p>
           </div>
         </div>
         <div className="border-t border-tertiary mt-10"></div>
-        <div className="mt-5 text-center">
-        
-        </div>
         <div className="mt-5 text-center text-sm text-secondary">
           © 2025 Pourya Zeydi. All rights reserved. | Built with{" "}
           <span className="text-red-500">❤</span> using Next.js & Tailwind CSS
